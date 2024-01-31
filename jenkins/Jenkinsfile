@@ -23,7 +23,9 @@ pipeline {
         }
         stage('Commit')
         {
-            echo 'Job Comppleted!'
+            steps{
+                echo 'Job Comppleted!'
+            }            
         }
     }
 }
